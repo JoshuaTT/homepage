@@ -10,7 +10,7 @@ import (
 const port = 8080
 const addr = "localhost:8080"
 
-func main(){
+func main() {
 	fmt.Println(port)
 	server.Serve(addr)
 }
